@@ -122,7 +122,7 @@ AutoDoc relies on the following Node.js packages:
 * prompts: For interactive command-line prompts.
 These dependencies are automatically installed when you run npm install in the project directory.
 
-##Contributing
+## Contributing
 We welcome contributions to AutoDoc! Please follow these guidelines:
 
 * Fork the repository on GitHub.
