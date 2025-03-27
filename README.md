@@ -101,31 +101,31 @@ sections:
 ```
 ### Configuration Options:
 
-projectName: The name of your project (used in generated files).
-projectDescription: A description of your project (included at the beginning of README.md).
-files: An array of file paths or glob patterns to include in documentation generation.
-exclude: An array of file paths or glob patterns to exclude.
-output: The name of the output README file (default: README.md).
-sections: An array of objects defining the sections of your README:
-title: The title of the section.
-files: An array of file paths to include in the section.
+* projectName: The name of your project (used in generated files).
+* projectDescription: A description of your project (included at the beginning of README.md).
+* files: An array of file paths or glob patterns to include in documentation generation.
+* exclude: An array of file paths or glob patterns to exclude.
+* output: The name of the output README file (default: README.md).
+* sections: An array of objects defining the sections of your README:
+* title: The title of the section.
+* files: An array of file paths to include in the section.
 
 ## Dependencies
 AutoDoc relies on the following Node.js packages:
 
-commander: For parsing command-line arguments.
-fs-extra: For enhanced file system operations.
-js-yaml: For parsing the docgen.yaml configuration file.
-glob: For file globbing.
-acorn: For parsing JavaScript code into Abstract Syntax Trees (ASTs).
-doctrine: For parsing JSDoc-style comments.
-prompts: For interactive command-line prompts.
+* commander: For parsing command-line arguments.
+* fs-extra: For enhanced file system operations.
+* js-yaml: For parsing the docgen.yaml configuration file.
+* glob: For file globbing.
+* acorn: For parsing JavaScript code into Abstract Syntax Trees (ASTs).
+* doctrine: For parsing JSDoc-style comments.
+* prompts: For interactive command-line prompts.
 These dependencies are automatically installed when you run npm install in the project directory.
 
 ##Contributing
 We welcome contributions to AutoDoc! Please follow these guidelines:
 
-Fork the repository on GitHub.
-Create a new branch for your feature or bug fix.
-Make your changes and commit
-Submit a pull request.
+* Fork the repository on GitHub.
+* Create a new branch for your feature or bug fix.
+* Make your changes and commit
+* Submit a pull request.
