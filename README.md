@@ -27,22 +27,14 @@ AutoDoc is a command-line tool designed to streamline the documentation process 
 
 ## Installation
 
-Since AutoDoc is not yet published to npm, you'll need to clone the repository and set it up manually:
+## Installation
 
-1.  **Clone the repository:**
+AutoDoc is available as an npm package. To install it globally, run:
 
-    ```bash
-    git clone https://github.com/ColePoppleton/AutoDoc-cli
-    cd https://github.com/ColePoppleton/AutoDoc-cli
-    ```
-
-2.  **Install dependencies:**
-
-    AutoDoc relies on several Node.js packages. Make sure you have Node.js and npm installed. Then, run:
-
-    ```bash
-    npm install
-    ```
+```bash
+npm install -g autodoc-cli
+```
+This will allow you to use the autodoc command from anywhere in your terminal.
 
 ## Usage
 
@@ -53,7 +45,7 @@ AutoDoc provides two main commands: `init` and `generate`.
 The `init` command initializes a `AutoDoc.yaml` configuration file and sample Markdown files in your project's root directory.
 
 ```bash
-./index.js init
+autodoc init
 ```
 
 This command will prompt you for:
@@ -68,7 +60,7 @@ This command will prompt you for:
 The generate command generates the README.md file based on the settings in docgen.yaml and the content of your code and Markdown files.
 
 ```Bash
-./index.js generate
+autodoc generate
 ```
 
 This command will create (or overwrite) the README.md file in your project's root directory.
@@ -128,7 +120,8 @@ AutoDoc relies on the following Node.js packages:
 - acorn: For parsing JavaScript code into Abstract Syntax Trees (ASTs).
 - doctrine: For parsing JSDoc-style comments.
 - prompts: For interactive command-line prompts.
-  These dependencies are automatically installed when you run npm install in the project directory.
+  
+  These dependencies are automatically installed when you install AutoDoc via npm.
 
 ## Contributing
 
@@ -138,3 +131,6 @@ We welcome contributions to AutoDoc! Please follow these guidelines:
 - Create a new branch for your feature or bug fix.
 - Make your changes and commit
 - Submit a pull request.
+
+## License
+[MIT](https://github.com/ColePoppleton/AutoDoc-cli/blob/master/LICENCE)
