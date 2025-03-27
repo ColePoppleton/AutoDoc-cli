@@ -1,5 +1,6 @@
 <div align="center">
-[![License](https://img.shields.io/github/license/ColePoppleton/AutoDoc-cli)](https://github.com/ColePoppleton/AutoDoc-cli/blob/master/LICENSE)
+![GitHub License](https://img.shields.io/github/license/ColePoppleton/AutoDoc-cli)
+
 </div>
 
 # AutoDoc: Your Automated Documentation Generator
