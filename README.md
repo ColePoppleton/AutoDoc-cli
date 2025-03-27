@@ -19,6 +19,8 @@ AutoDoc is a command-line tool designed to streamline the documentation process 
 ## Table of Contents
 
 - [Installation](#installation)
+    - [Installing via npm (Recommended)](#installing-via-npm-recommended)
+    - [Using the Source Code](#using-the-source-code)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
@@ -27,14 +29,48 @@ AutoDoc is a command-line tool designed to streamline the documentation process 
 
 ## Installation
 
-## Installation
+You can install and use AutoDoc in two ways:
 
-AutoDoc is available as an npm package. To install it globally, run:
+### Installing via npm (Recommended)
+
+This is the easiest and most convenient way to use AutoDoc.
 
 ```bash
 npm install -g autodoc-cli
 ```
 This will allow you to use the autodoc command from anywhere in your terminal.
+
+### Using the Source Code
+
+If you want to contribute to AutoDoc, modify it, or use the latest development version, you can download and use the source code directly.
+
+Clone the repository or download a release:
+
+#### Clone:
+```Bash
+git clone [https://github.com/ColePoppleton/AutoDoc-cli](https://github.com/ColePoppleton/AutoDoc-cli)
+cd AutoDoc-cli
+```
+#### Download a release:
+- Go to the Releases page on the GitHub repository.
+- Download the source code (usually a zip or tar.gz file) for your desired release.
+- Extract the downloaded archive.
+- Navigate to the extracted directory in your terminal.
+#### Install dependencies:
+
+AutoDoc relies on several Node.js packages. Make sure you have Node.js and npm installed. Then, run:
+
+```Bash
+npm install
+```
+#### Run AutoDoc:
+
+You can now run AutoDoc commands using node index.js (or ./index.js if you've made it executable):
+
+```Bash
+node index.js init
+node index.js generate
+```
 
 ## Usage
 
