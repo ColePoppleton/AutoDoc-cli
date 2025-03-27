@@ -133,4 +133,4 @@ We welcome contributions to AutoDoc! Please follow these guidelines:
 - Submit a pull request.
 
 ## License
-[MIT](https://github.com/ColePoppleton/AutoDoc-cli/blob/master/LICENCE)
+[MIT](https://github.com/ColePoppleton/AutoDoc-cli/blob/master/LICENSE)
