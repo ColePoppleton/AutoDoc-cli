@@ -3,7 +3,7 @@
     [![npm version](https://badge.fury.io/js/autodoc-cli.svg)](https://www.npmjs.com/package/autodoc-cli)
     [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
     [![GitHub last commit](https://img.shields.io/github/last-commit/ColePoppleton/AutoDoc-cli)](https://github.com/ColePoppleton/AutoDoc-cli/commits/master)
-    [![Node.js Version](https://img.shields.io/node/v/YOUR_NPM_PACKAGE_NAME)](https://nodejs.org/)
+    [![Node.js Version](https://img.shields.io/node/v/autodoc-cli)](https://nodejs.org/)
 </div>
 
 
