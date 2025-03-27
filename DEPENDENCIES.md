@@ -1,0 +1,9 @@
+- acorn: ^8.14.1
+- commander: ^13.1.0
+- doctrine: ^3.0.0
+- fs: ^0.0.1-security
+- fs-extra: ^11.3.0
+- glob: ^11.0.1
+- inquirer: ^12.5.0
+- js-yaml: ^4.1.0
+- prompts: ^2.4.2
