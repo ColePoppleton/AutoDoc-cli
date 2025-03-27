@@ -1,3 +1,12 @@
+<div align="Center">
+    [![GitHub release (latest by date)](https://img.shields.io/github/v/release/ColePoppleton/AutoDoc-cli)](https://github.com/ColePoppleton/AutoDoc-cli/releases)
+    [![npm version](https://badge.fury.io/js/YOUR_NPM_PACKAGE_NAME.svg)](https://www.npmjs.com/package/YOUR_NPM_PACKAGE_NAME)
+    [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+    [![GitHub last commit](https://img.shields.io/github/last-commit/ColePoppleton/AutoDoc-cli)](https://github.com/ColePoppleton/AutoDoc-cli/commits/master)
+    [![Node.js Version](https://img.shields.io/node/v/YOUR_NPM_PACKAGE_NAME)](https://nodejs.org/)
+</div>
+
+
 # AutoDoc: Your Automated Documentation Generator
 
 AutoDoc is a command-line tool designed to streamline the documentation process for JavaScript/Node.js projects. It automatically generates a basic `README.md` file by parsing your code and extracting relevant information, saving you valuable time and effort.
