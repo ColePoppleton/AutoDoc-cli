@@ -1,14 +1,30 @@
 {
-  "name": "docgen-cli",
+  "name": "autodoc-cli",
   "version": "1.0.0",
+  "description": "A CLI tool to generate README documentation from JavaScript/Node.js code.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "autodoc": "./index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "documentation",
+    "readme",
+    "cli",
+    "generator",
+    "javascript",
+    "jsdoc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColePoppleton/AutoDoc-cli.git"
+  },
+  "author": {
+    "name": "Cole Poppleton"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColePoppleton/AutoDoc-cli/issues"
+  },
   "dependencies": {
     "acorn": "^8.14.1",
     "commander": "^13.1.0",
@@ -22,5 +38,10 @@
   },
   "devDependencies": {
     "prettier": "3.5.3"
-  }
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
 }
